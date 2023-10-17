@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background-color: lightgray;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  20px 150px;
+    color: #fff;
+    background-color: rgb(58, 172, 144);
+}
+.logo, nav div{
+    cursor: pointer;
+}
+
+.main-part{
+    transition-duration: .5s;
+    width: 80%;
+    margin: 30px auto;
+}
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    width: 100%;
+    margin: 40px auto;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 200px;
+}
+.content-img{
+    background-color: #fff;
+    width: 100%;
+    height: 60%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* .content-img:hover{
+    width: 200px;
+    transform: scale(1.2);
+    overflow: hidden;
+    visibility:visible;
+    transition-duration: .3s;
+} */
+.plants-name{
+    font-size: 18px;
+    font-weight: 500;
+}
+.plants-price{
+    font-size: 16px;
+    opacity: 0.7;
+}
+.add-cart{
+    border: none;
+    padding: 7px;
+    background-color: rgb(17, 100, 17);
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cost-nav{
+    position: fixed;
+    top: 0;
+    right: -700px;
+    width: 30%;
+    height: 100vh;
+    z-index: 3;
+    background-color: #fff;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.body p{
+    opacity: 0.7;
+    margin-top: 300px;
+    margin-left: 130px;
+    font-size: 20px;
+}
+.block{
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.div1, .div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div1 i, .increament, .decreament{
+    cursor: pointer;
+}
+.inc-dec{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    padding: 10px;
+    justify-content: space-between;
+    border: 2px solid grey;
+}
+
+.div1-img{
+    width: 20px;
+    height: 20px;
+}
+.checkout{
+    background-color: blue;
+    color: #fff;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.flower-window{
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: -1500px;
+    transition-duration: .5s;
+}
+.container{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.container img{
+    width: 500px;
+    height: 500px;
+}
+.flower-about{
+    padding: 80px 10px 50px 10px;
+    column-gap: 30px;
+    
+}
+.flower-about h2{
+    font-size: 32px;
+}
+.flower-about h3{
+   margin-top: 15px;
+   font-weight: 500;
+}
+.flower-about p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.copyright{
+    text-align: center;
+    text-transform: capitalize;
+}

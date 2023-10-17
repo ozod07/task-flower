@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers Shopping</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/91c06491ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <p class="logo">PLANTS🍀</p>
+        <p class="quantity">0🛒 </p>
+    </nav>
+
+    <div class="main-part">
+        <p style="font-weight: 600; font-size: 22px;">All Products🌿</p>
+        <div class="img-container">
+        </div>
+    </div>
+
+    <div class="cost-nav">
+        <div class="navbar">
+            <p>Cart Summary</p>
+            <div>
+                🛒$ <span class="balance">0.00</span>
+            </div>
+            <i class="fa-solid fa-xmark" style="cursor: pointer;"></i>
+        </div>
+        <div class="body">
+            <p class="cart-empty">Your cart is empty</p>
+           
+        </div>
+        <button class="checkout">Checkout</button>
+    </div>
+            
+    <div class="flower-window">
+        <div class="container">
+            <img src="images/pexels-photo-346529.webp" alt="">
+            <div class="flower-about">
+                <h2 class="flower-name"></h2>
+                <span>$<span class="flower-cost"></span></span>
+                <p class="flower-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet ducimus saepe dolor numquam nulla nihil vitae at cumque, eos consectetur tempore expedita rerum iure sunt. Unde sequi quaerat ipsam molestiae error maiores ipsum.</p>
+                <button class="add-cart" onclick="mainPartFunction('Alocasia Portodoro',  31.73)">Add to cart🛒</button>
+            </div>
+        </div>
+        <p class="copyright">All rights reserved copyright 2022 </p>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+</html>
